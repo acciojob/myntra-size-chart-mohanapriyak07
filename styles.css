@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+.table-1{
+	width:80%;
+	margin:auto;
+	border-collapse:collapse;
+}
+
+.table-1 td,th{
+	border:1px solid black;
+}
+
+.table-1 th{
+	text-align:left;
+}
+
+.table-1 td:not(.col1){
+	text-align:right;
+}
+
+.row1{
+	background-color:#C0504D;
+	color:#EDECFB;
+}
+.row2{
+	background-color:#DA9694;
+	color:#EDECFB;
+}
+.row3{
+	background-color:#F2DCDB;
+}
+.row4{
+	background-color:#D9D9D9;
+}
+
